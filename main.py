@@ -1,30 +1,13 @@
-# Rock Paper Scissors ASCII Art
+from asciiArt import scissors as scissors
+from asciiArt import rock as rock
+from asciiArt import paper as paper
+import random
 
-rock = """
-    _______
----'   ____)
-      (_____)
-      (_____)
-      (____)
----.__(___)
+welcome_message = """
+This is classic rock paper scissors game
+1. Rock wins against scissors.
+2. Scissors wins against paper.
+3. Paper wins against rock.
 """
 
-paper = """
-     _______
----'    ____)____
-           ______)
-          _______)
-         _______)
----.__________)
-"""
 
-scissors = """
-    _______
----'   ____)____
-          ______)
-       __________)
-      (____)
----.__(___)
-"""
-
-print(rock)
